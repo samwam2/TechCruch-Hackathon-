@@ -1,0 +1,32 @@
+PODS:
+  - Bolts (1.2.2):
+    - Bolts/AppLinks (= 1.2.2)
+    - Bolts/Tasks (= 1.2.2)
+  - Bolts/AppLinks (1.2.2):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.2)
+  - ConvenienceKit (0.4.0)
+  - Mixpanel (2.8.3):
+    - Mixpanel/Mixpanel (= 2.8.3)
+  - Mixpanel/Mixpanel (2.8.3)
+  - Parse (1.8.5):
+    - Bolts/Tasks (>= 1.2.2)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+
+DEPENDENCIES:
+  - Bolts
+  - ConvenienceKit
+  - Mixpanel
+  - Parse
+  - ParseUI
+
+SPEC CHECKSUMS:
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  ConvenienceKit: ba1ad8797897dc0d011676e961a2f3e9b270c841
+  Mixpanel: fd52e097ae0d27295d0595b2261c60b94d191fda
+  Parse: 17ad8e0677ed682f7f00503860fcda0f4eb74168
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+
+COCOAPODS: 0.38.2
